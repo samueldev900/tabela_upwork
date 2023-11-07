@@ -1,10 +1,14 @@
-body{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+*{
+  margin: 0px;
+  padding: 0px;
+}
+p{
+  font-size: 10px;
+  text-align: right;
 }
 table{
-  width: 1200px;
+  width: 600px;
+  height: 850px;
   border-collapse: collapse;
 }
 th{
@@ -14,18 +18,20 @@ th{
   color: white;
 }
 tfoot{
-    border: 1px solid black;
+  border: 1px solid black;
   text-align: left;
   background-color: black;
   color: white;
+  font-size: 12px;
 }
 td{
-  width: 100px;
-  height: 50px;
-  padding: 10px;
-  border: 1px solid black;
-  vertical-align: sub;
  
+  width: 50px;
+  height: auto;
+  padding: 5px;
+  border: 1px solid black; 
+  vertical-align: text-top;
+  
 }
 .cabecalho{
   display: flex;
@@ -34,7 +40,7 @@ td{
   padding: 5px;
 }
 .cabecalho p{
-  padding: 0px 10px;
+  padding: 0px 50px;
 }
 .number1{
   font-size: 20pt;
@@ -42,46 +48,86 @@ td{
 
 .small-component{
   display: flex;
-  align-items: center;
+ 
+  justify-content: flex-end;
   height: 30px;
-  width: 180px;
+  width: 155px;
   padding: 5px;
-  font-size: 8pt;
-
+  font-size: 6pt;
+  
+  
 }
 .small-component2{
   display: flex;
   align-items: center;
   height: 30px;
-  width: 150px;
+  width: 100px;
   padding: 5px;
-  font-size: 8pt;
+  font-size: 6pt;
+
 
 }
 .small-component p{
-  padding: 0px 10px;
+  padding: 0px 5px;
 }
 .small-component2 p{
-  padding: 0px 10px;
+  padding: 0px 5px;
 }
 .special{
-  height: 250px;
+  height: 100px;
 }
 .flex-container{
   display: flex;
+
 }
 
 #slogan{
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 140px;
-  height: 70px;
+  width: 90px;
+  height: 30px;
   border: 5px solid black;
   border-radius: 70%;
 }
 
 #slogan p{
   font-weight: bold;
-  font-size: 30px;
+  font-size: 20px;
+}
+.psecond-line{
+
+  font-size: 13px;
+
+}
+
+.small-component3{
+  display: flex;
+  align-items: center;
+  height: 30px;
+  width: 200px;
+  padding: 10px;
+  padding-bottom: 15px;
+  font-size: 6pt;
+  
+
+}
+.small-component3 p{
+  padding-right: 3px;
+
+}
+
+.flex-container2{
+  padding-top: 10px;
+}
+.kilogram{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  border: none;
+
+
+  width: 108px;
+  height: 80px;
 }
